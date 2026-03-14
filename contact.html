@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra Ecommerce Website</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--javascript-->
+    <script src="contact.js" defer></script>
+</head>
+
+<body>
+    
+    <!--Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Nostra</h1>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">New Arrival</a></li>
+             <li><a href="index.html">Most Wanted</a></li>
+              <li><a href="collection.html">Collections</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="navbar-menu-toggle" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side Navigation Menu -->
+    <div class="side-navbar-links">
+        <div class="side-navbar-close" onclick="closeNav()">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">New Arrival</a></li>
+             <li><a href="index.html">Most Wanted</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+<div class="main-container">
+    <div class="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+   <!--News Letter-->
+  <div class="news">
+        <h2>Join our News Letter</h2>
+        <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div style="margin-top: 10px;">
+        <input class="search">
+    </div>
+    <div>
+        <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+    </div>
+
+    </div>
+</div>
+
+ <!-- Footer  -->
+  <div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Nostra</h2>
+            <p>Nostra is a fashion e-commerce website that offers a wide range of trendy and stylish clothing, accessories</p>
+
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-facebook-f"></i>
+                    <i class="icon fa-brands fa-twitter"></i>
+                    <i class="icon fa-brands fa-instagram"></i>
+                </div>
+            <p>&copy; 2026 Nostra. All rights reserved.</p>
+        </div>
+    </div>
+  </div>
+        
+</body>
+
+</html>
