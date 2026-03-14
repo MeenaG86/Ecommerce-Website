@@ -179,13 +179,12 @@ body{
 }
 /*Brands*/
 .brands{
-    padding:50px 0;
     margin-top: 2vw;
   /*  text-align:center;*/
 }
 
 .brands h2{
-    margin-bottom:30px;
+    margin-bottom:10px;
 }
 
 .brand-container{
@@ -236,6 +235,7 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top:2vw;
+    gap:30px;
 }
 .new-arrival-container{
     position: relative;
