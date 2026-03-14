@@ -235,7 +235,7 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top:2vw;
-    gap:30px;
+    gap:20px;
 }
 .new-arrival-container{
     position: relative;
